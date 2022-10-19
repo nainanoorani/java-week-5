@@ -2,7 +2,7 @@ package org.part2;
 
 import java.util.HashMap;
 import java.util.Stack;
-
+//The runtime complexity of both functions is linear, as each it iterates through each character in the string. In each iteration, methods called like contains(), pop(), charAt(), and get() all take constant time.
 public class balancedBrackets {
     public static void main(String[] args) {
         String balancedString ="a{aeg}d";
