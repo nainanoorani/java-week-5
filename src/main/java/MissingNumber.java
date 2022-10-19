@@ -6,7 +6,7 @@ public class MissingNumber {
     int[] newArr= new int[]{2, 1, 4, 3, 6, 5, 7, 10, 9};
     missingNumber(newArr, 10);
     }
-
+    //Time complexity O(n) space complexity O(1)
     public static int missingNumber(int[] intArray, int maxNum) {
         //summation of first natural numbers
         int total = maxNum * (maxNum + 1) / 2;
@@ -18,5 +18,7 @@ public class MissingNumber {
 
         System.out.println(missing);
         return missing;
+
+
     }
 }
